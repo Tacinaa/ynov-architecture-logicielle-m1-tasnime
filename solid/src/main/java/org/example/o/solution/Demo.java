@@ -1,4 +1,4 @@
-package org.example.o.solution;
+/**package org.example.o.solution;
 
 public class Demo {
 
@@ -21,3 +21,4 @@ public class Demo {
 
     }
 }
+**/
