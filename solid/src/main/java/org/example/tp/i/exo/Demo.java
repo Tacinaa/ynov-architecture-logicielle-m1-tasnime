@@ -1,3 +1,5 @@
+package org.example.tp.i.exo;
+
 public class Demo {
     public static void main(String[] args) {
         Employee employee = new Employee();

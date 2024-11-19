@@ -1,4 +1,7 @@
-public class Employee implements Eatableclass Employee implements Workable, Eatable, Sleepable {
+package org.example.tp.i.exo;
+
+
+class Employee implements Workable, Eatable, Sleepable {
     @Override
     public void work() {
         System.out.println("Employee is working");

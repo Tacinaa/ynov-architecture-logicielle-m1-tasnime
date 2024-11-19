@@ -1,6 +1,6 @@
 package org.example.o.solution;
 
-public class LoanHandler {
+public abstract class LoanHandler {
 
     private PersonaLoanValidator personaLoanValidator;
     private GageLoanValidator gageLoanValidator;
@@ -19,6 +19,5 @@ public class LoanHandler {
     }
 
 
-
-
+    public abstract void approveLoan(User user);
 }

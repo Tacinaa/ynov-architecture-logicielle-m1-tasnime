@@ -1,6 +1,6 @@
 package org.example.o.solution;
 
-public class PersonalLoanHandler implements LoanHandler {
+public class PersonalLoanHandler extends LoanHandler {
 
     private Validator validator;
 
