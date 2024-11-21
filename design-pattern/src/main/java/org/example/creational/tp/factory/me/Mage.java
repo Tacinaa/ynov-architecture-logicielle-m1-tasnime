@@ -1,4 +1,4 @@
-package org.example.creational.tp.factory;
+package org.example.creational.tp.factory.me;
 
 public class Mage extends Character {
     public Mage(String name) {

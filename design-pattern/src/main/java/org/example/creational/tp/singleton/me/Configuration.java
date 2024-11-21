@@ -1,4 +1,4 @@
-package org.example.creational.tp.singleton;
+package org.example.creational.tp.singleton.me;
 
 import java.io.FileInputStream;
 import java.io.IOException;

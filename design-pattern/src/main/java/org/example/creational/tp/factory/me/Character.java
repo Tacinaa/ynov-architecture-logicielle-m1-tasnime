@@ -1,4 +1,4 @@
-package org.example.creational.tp.factory;
+package org.example.creational.tp.factory.me;
 
 public abstract class Character {
     private String name;

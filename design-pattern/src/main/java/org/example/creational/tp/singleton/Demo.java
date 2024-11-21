@@ -1,5 +1,7 @@
 package org.example.creational.tp.singleton;
 
+import org.example.creational.tp.singleton.me.Configuration;
+
 public class Demo {
     public static void main(String[] args) {
 

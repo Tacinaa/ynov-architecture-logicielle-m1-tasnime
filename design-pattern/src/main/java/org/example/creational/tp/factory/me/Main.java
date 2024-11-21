@@ -1,4 +1,4 @@
-package org.example.creational.tp.factory;
+package org.example.creational.tp.factory.me;
 
 public class Main {
     public static void main(String[] args) {
