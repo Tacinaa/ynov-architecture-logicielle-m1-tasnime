@@ -1,6 +1,6 @@
 package org.example.o.solution;
 
-public class GageLoanHandler implements LoanHandler {
+public class GageLoanHandler extends LoanHandler {
 
     private Validator validator;
 
@@ -10,8 +10,8 @@ public class GageLoanHandler implements LoanHandler {
 
     @Override
     public void approveLoan(User user) {
-    if(validator.isValid(user)) {
-        System.out.println("Loan approved");
-    }
+        if(validator.isValid(user)) {
+            System.out.println("Loan approved");
+        }
     }
 }

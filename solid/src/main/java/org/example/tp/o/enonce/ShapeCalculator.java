@@ -25,17 +25,19 @@ Note : Concentrez-vous sur la conception de solutions flexibles et extensibles q
 
 */
 
+/**import org.example.tp.o.exo.Shape;
+
 import java.util.List;
 
 public class ShapeCalculator {
     public double calculateTotalArea(List<Shape> shapes) {
         double totalArea = 0;
         for (Shape shape : shapes) {
-            if (shape instanceof Circle) {
-                Circle circle = (Circle) shape;
+            if (shape instanceof org.example.tp.o.exo.Circle) {
+                org.example.tp.o.exo.Circle circle = (org.example.tp.o.exo.Circle) shape;
                 totalArea += Math.PI * Math.pow(circle.getRadius(), 2);
-            } else if (shape instanceof Rectangle) {
-                Rectangle rectangle = (Rectangle) shape;
+            } else if (shape instanceof org.example.tp.o.exo.Rectangle) {
+                org.example.tp.o.exo.Rectangle rectangle = (org.example.tp.o.exo.Rectangle) shape;
                 totalArea += rectangle.getWidth() * rectangle.getHeight();
             }
         }
@@ -77,3 +79,4 @@ class Rectangle extends Shape {
     }
 }
 
+**/

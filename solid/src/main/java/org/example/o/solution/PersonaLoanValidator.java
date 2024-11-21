@@ -1,9 +1,10 @@
 package org.example.o.solution;
 
-public class PersonaLoanValidator implements Validator {
+public class PersonaLoanValidator {
 
-    @Override
-    public boolean isValid(User user) {
+    public boolean isValidUserPersonalLoan(User user){
         return false;
     }
+
+
 }

@@ -1,7 +1,6 @@
 package org.example.creational.singleton;
 
 public class OrderManagementService {
-
     private static OrderManagementService instance;
 
     private OrderManagementService() {}
@@ -12,8 +11,4 @@ public class OrderManagementService {
         }
         return instance;
     }
-
-
-
-
 }
