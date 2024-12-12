@@ -16,7 +16,7 @@ public class Account {
     private Long id;
     private String name;
     private String email;
-    private Integer Solde;
+    private Integer solde;
 
     public Long getId() {
         return id;
@@ -43,10 +43,10 @@ public class Account {
     }
 
     public Integer getSolde() {
-        return Solde;
+        return solde;
     }
 
     public void setSolde(Integer solde) {
-        Solde = solde;
+        solde = solde;
     }
 }

@@ -4,6 +4,7 @@ package org.example.accountservice.controller;
 import org.example.accountservice.entity.Account;
 import org.example.accountservice.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -34,4 +35,13 @@ public class AccountController {
         accountService.deleteAccount(id);
     }
 
+    @GetMapping("/{id}/exists")
+    public ResponseEntity<Void> doesAccountExist(@PathVariable Long id) {
+        Account account = accountService.getAccountById(id);
+        if (account != null) {
+            return ResponseEntity.ok().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
 }

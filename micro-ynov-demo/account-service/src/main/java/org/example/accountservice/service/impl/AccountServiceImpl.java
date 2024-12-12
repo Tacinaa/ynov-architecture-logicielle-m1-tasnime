@@ -19,7 +19,7 @@ public class AccountServiceImpl implements AccountService {
     }
 
     public Account getAccountById(Long id) {
-        return accountRepository.findById(id).orElseThrow(() -> new RuntimeException("Account not found"));
+        return accountRepository.findById(id).orElseThrow(() -> new RuntimeException("Compte pas trouvé"));
     }
 
     public Account saveAccount(Account account) {
