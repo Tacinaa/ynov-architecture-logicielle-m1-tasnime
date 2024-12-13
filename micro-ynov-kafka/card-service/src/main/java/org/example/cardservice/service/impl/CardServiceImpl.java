@@ -48,7 +48,7 @@ public class CardServiceImpl implements CardService {
 
     @Override
     public void deleteCardByAccountId(Long accountId) {
-        logger.info("Delete card by account id {}", accountId);
+        logger.info("Deleting card by account id {}", accountId);
         cardRepository.deleteByAccountId(accountId);
     }
 }

@@ -19,6 +19,7 @@ public class AccountServiceImpl implements AccountService {
 
     @Autowired
     private ServiceClient serviceClient;
+
     @Autowired
     private AccountKafkaProducer accountKafkaProducer;
 
